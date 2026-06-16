@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Abstract portrait of soprano Yuna Choi">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1715"/>
+      <stop offset="100%" stop-color="#060606"/>
+    </linearGradient>
+    <linearGradient id="gold3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4ddb0"/>
+      <stop offset="50%" stop-color="#d1a857"/>
+      <stop offset="100%" stop-color="#8e6a2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#bg3)"/>
+  <circle cx="630" cy="150" r="120" fill="#d1a857" opacity="0.08"/>
+  <path d="M220 770c58-208 130-328 220-328s168 120 220 328" fill="none" stroke="url(#gold3)" stroke-width="14" opacity="0.5"/>
+  <ellipse cx="405" cy="370" rx="120" ry="146" fill="#f1ddc2" opacity="0.95"/>
+  <path d="M284 350c6-92 72-160 172-168 62 12 112 52 138 120-42-22-86-34-134-34-68 0-122 26-176 82Z" fill="#17110d" opacity="0.86"/>
+  <path d="M330 644c20-50 58-78 114-84 76 2 124 30 144 84l-258 4Z" fill="#171717"/>
+  <path d="M378 486c18 26 36 40 54 40 20 0 38-14 56-40" stroke="#c79446" stroke-width="6" fill="none" opacity="0.76"/>
+  <path d="M392 560c22 10 42 10 60 0" stroke="#d1a857" stroke-width="5" fill="none" opacity="0.8"/>
+  <text x="400" y="840" fill="#d8bc84" font-size="34" text-anchor="middle" font-family="Georgia, serif" letter-spacing="8">SOPRANO</text>
+</svg>

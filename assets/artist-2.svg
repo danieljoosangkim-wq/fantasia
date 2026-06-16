@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Abstract portrait of violinist Minjae Park">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171717"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="gold2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4ddb0"/>
+      <stop offset="50%" stop-color="#d1a857"/>
+      <stop offset="100%" stop-color="#8e6a2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#bg2)"/>
+  <circle cx="170" cy="170" r="130" fill="#d1a857" opacity="0.07"/>
+  <path d="M240 760c30-180 108-320 220-320 122 0 184 118 220 320" fill="none" stroke="url(#gold2)" stroke-width="14" opacity="0.5"/>
+  <ellipse cx="415" cy="385" rx="122" ry="150" fill="#f0dcc0" opacity="0.94"/>
+  <path d="M305 346c26-82 94-132 186-132 38 24 64 62 78 116-42-30-94-44-160-40-36 2-70 10-104 24Z" fill="#18120c" opacity="0.88"/>
+  <path d="M470 520c18 34 48 54 88 62-18 18-40 28-68 30-22 2-44-4-64-18Z" fill="#d4b074" opacity="0.72"/>
+  <rect x="390" y="540" width="20" height="240" rx="10" fill="url(#gold2)" opacity="0.85"/>
+  <path d="M290 620c80-12 178-12 260 0" stroke="#c6943f" stroke-width="6" fill="none" opacity="0.8"/>
+  <path d="M320 648c62-20 144-20 220 0" stroke="#c6943f" stroke-width="6" fill="none" opacity="0.8"/>
+  <text x="400" y="840" fill="#d8bc84" font-size="34" text-anchor="middle" font-family="Georgia, serif" letter-spacing="8">VIOLIN</text>
+</svg>

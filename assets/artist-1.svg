@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Abstract portrait of pianist Soojin Han">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1a16"/>
+      <stop offset="100%" stop-color="#070707"/>
+    </linearGradient>
+    <linearGradient id="gold1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4ddb0"/>
+      <stop offset="50%" stop-color="#d1a857"/>
+      <stop offset="100%" stop-color="#8e6a2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#bg1)"/>
+  <circle cx="590" cy="150" r="120" fill="#d1a857" opacity="0.08"/>
+  <path d="M170 760c40-220 100-340 220-340s180 120 220 340" fill="none" stroke="url(#gold1)" stroke-width="14" opacity="0.5"/>
+  <path d="M290 430c-18-88 34-172 116-188 84-16 164 44 182 132 12 64-12 126-58 166-28 24-36 48-38 88h-94c-2-40-14-62-44-90-32-30-54-66-64-108Z" fill="#f1ddbe" opacity="0.92"/>
+  <path d="M344 312c36-48 86-78 146-88 38 18 68 52 84 96-34-24-58-34-92-34-46 0-88 10-138 26Z" fill="#17130f" opacity="0.85"/>
+  <path d="M354 633h148c32 0 58 28 58 62v58H296v-58c0-34 26-62 58-62Z" fill="#161616"/>
+  <path d="M250 756h300" stroke="url(#gold1)" stroke-width="3" opacity="0.55"/>
+  <text x="400" y="840" fill="#d8bc84" font-size="34" text-anchor="middle" font-family="Georgia, serif" letter-spacing="8">PIANO</text>
+</svg>
