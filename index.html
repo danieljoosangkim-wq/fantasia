@@ -1,642 +1,255 @@
 <!DOCTYPE html>
-<html lang="en" data-lang="en">
+<html lang="ko" data-lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FANTASIA | Classical Music IP Licensing &amp; Immersive Audio</title>
-  <meta name="description" content="FANTASIA is a South Korea-based classical music company specializing in intellectual property development, immersive audio production (Dolby Atmos), and global music distribution." />
-  <meta name="keywords" content="FANTASIA, classical music, IP licensing, Dolby Atmos, immersive audio, Korea, music distribution, catalog" />
-  <meta name="author" content="FANTASIA" />
-  <meta name="theme-color" content="#080808" />
-  <meta property="og:title" content="FANTASIA | Classical Music IP &amp; Immersive Audio" />
-  <meta property="og:description" content="Premium classical music IP development, Dolby Atmos production, and global distribution — South Korea." />
+  <title>FANTASIA | 클래식 오리지널 레이블 & Dolby Atmos 유통</title>
+  <meta name="description" content="FANTASIA는 클래식 아티스트의 음악을 Dolby Atmos 프리미엄 사운드로 제작하고 전 세계에 유통하는 오리지널 레이블 겸 플랫폼입니다." />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="FANTASIA | Classical Dolby Atmos Label" />
+  <meta property="og:description" content="당신의 클래식 음악을 전 세계 스트리밍 플랫폼에 프리미엄 사운드로 발매하세요." />
   <meta property="og:type" content="website" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:locale:alternate" content="ko_KR" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:locale:alternate" content="en_US" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "FANTASIA",
-    "url": "https://your-domain.example",
-    "description": "South Korea-based classical music IP licensing and immersive audio company.",
-    "foundingLocation": { "@type": "Place", "name": "South Korea" },
-    "knowsAbout": ["Classical Music IP", "Dolby Atmos", "Music Distribution", "Catalog Licensing"]
-  }
-  </script>
 </head>
 <body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="FANTASIA home">
+        <span class="brand-mark">F</span>
+        <span class="brand-copy">
+          <strong>FANTASIA</strong>
+          <span class="t" data-ko="오리지널 레이블 & 유통" data-en="Original Label & Distribution"></span>
+        </span>
+      </a>
 
-<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
-<header class="site-header" id="top">
-  <div class="container nav-wrap">
+      <nav class="site-nav" id="site-nav" aria-label="주요 메뉴">
+        <a href="#home" class="t" data-ko="홈" data-en="Home"></a>
+        <a href="#releases" class="t" data-ko="최신 발매작" data-en="Releases"></a>
+        <a href="#about" class="t" data-ko="레이블 소개" data-en="About"></a>
+        <a href="#services" class="t" data-ko="협업 방식" data-en="Services"></a>
+        <a href="#contact" class="t" data-ko="발매 문의" data-en="Contact"></a>
+      </nav>
 
-    <a class="brand" href="#top" aria-label="FANTASIA Home">
-      <span class="brand-mark">F</span>
-      <div class="brand-text">
-        <span class="brand-name">FANTASIA</span>
-        <span class="brand-sub t" data-en="Classical Music IP &amp; Immersive Audio" data-ko="클래식 음악 IP &amp; 이머시브 오디오"></span>
-      </div>
-    </a>
-
-    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-      <a href="#home" class="t" data-en="Home" data-ko="홈"></a>
-      <a href="#about" class="t" data-en="About" data-ko="소개"></a>
-      <a href="#releases" class="t" data-en="Releases" data-ko="릴리스"></a>
-      <a href="#dolby" class="t" data-en="Dolby Atmos" data-ko="돌비 애트모스"></a>
-      <a href="#licensing" class="t" data-en="Licensing" data-ko="라이선싱"></a>
-      <a href="#contact" class="t" data-en="Contact" data-ko="문의"></a>
-    </nav>
-
-    <div class="nav-right">
-      <button class="lang-switch" id="lang-switch" aria-label="Toggle language">
-        <span class="lang-option" data-lang-label="en">EN</span>
-        <span class="lang-divider">|</span>
-        <span class="lang-option" data-lang-label="ko">KO</span>
-      </button>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-
-  </div>
-</header>
-
-<main>
-
-<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
-<section class="hero" id="home">
-  <div class="hero-bg-rings">
-    <div class="ring ring-1"></div>
-    <div class="ring ring-2"></div>
-    <div class="ring ring-3"></div>
-  </div>
-  <div class="container hero-inner">
-    <div class="hero-copy reveal">
-      <p class="eyebrow t" data-en="Seoul, South Korea · Global Classical Music Platform" data-ko="대한민국 서울 · 글로벌 클래식 음악 플랫폼"></p>
-      <h1 class="hero-h1">
-        <span class="t" data-en="Transforming Classical Performance Into Premium Global IP." data-ko="클래식 퍼포먼스를 프리미엄 글로벌 IP로."></span>
-      </h1>
-      <p class="hero-body t" data-en="FANTASIA is a South Korea-based classical music company developing intellectual property, Dolby Atmos productions, and global distribution for world-class repertoire and catalogs." data-ko="FANTASIA는 대한민국을 기반으로 지식재산권 개발, 돌비 애트모스 프로덕션, 세계적 수준의 레퍼토리와 카탈로그의 글로벌 유통을 전문으로 하는 클래식 음악 회사입니다."></p>
-      <div class="hero-ctas">
-        <a class="btn btn-gold" href="#releases">
-          <span class="t" data-en="Explore Catalog" data-ko="카탈로그 보기"></span>
-        </a>
-        <a class="btn btn-outline" href="#contact">
-          <span class="t" data-en="Contact Us" data-ko="문의하기"></span>
-        </a>
+      <div class="header-actions">
+        <button class="lang-toggle" id="lang-toggle" aria-label="언어 전환">
+          <span class="lang-ko">KR</span>
+          <span class="lang-sep">/</span>
+          <span class="lang-en">EN</span>
+        </button>
+        <a class="artists-cta t" href="#contact" data-ko="음원 제출" data-en="Submit Music"></a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </div>
-    <div class="hero-stats reveal delay-1">
-      <div class="stat-card">
-        <span class="stat-label t" data-en="Format" data-ko="포맷"></span>
-        <strong class="stat-val t" data-en="Stereo &amp; Dolby Atmos" data-ko="스테레오 &amp; 돌비 애트모스"></strong>
-      </div>
-      <div class="stat-card">
-        <span class="stat-label t" data-en="Strategy" data-ko="전략"></span>
-        <strong class="stat-val t" data-en="IP-Driven Catalog Growth" data-ko="IP 중심 카탈로그 성장"></strong>
-      </div>
-      <div class="stat-card">
-        <span class="stat-label t" data-en="Reach" data-ko="범위"></span>
-        <strong class="stat-val t" data-en="Asia-Based, Globally Distributed" data-ko="아시아 기반, 글로벌 유통"></strong>
-      </div>
-      <div class="stat-card">
-        <span class="stat-label t" data-en="Mission" data-ko="미션"></span>
-        <strong class="stat-val t" data-en="Asia's Leading Classical IP Company" data-ko="아시아 최고의 클래식 IP 회사"></strong>
-      </div>
-    </div>
-  </div>
-</section>
+  </header>
 
-<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
-<section class="section" id="about">
-  <div class="container">
-    <div class="section-intro reveal">
-      <p class="section-label t" data-en="About" data-ko="소개"></p>
-      <h2 class="section-h2 t" data-en="Vision, mission, and a business model built for compounding catalog value." data-ko="카탈로그 가치를 복리로 키우는 비전, 미션 그리고 비즈니스 모델."></h2>
-    </div>
-    <div class="about-grid">
-      <article class="about-card reveal">
-        <h3 class="t" data-en="Vision" data-ko="비전"></h3>
-        <p class="t" data-en="To become Asia's leading classical music IP company — elevating exceptional repertoire into globally distributed, premium-quality audio assets." data-ko="탁월한 레퍼토리를 글로벌 배급 프리미엄 오디오 자산으로 발전시켜 아시아 최고의 클래식 음악 IP 회사가 됩니다."></p>
-      </article>
-      <article class="about-card reveal delay-1">
-        <h3 class="t" data-en="Mission" data-ko="미션"></h3>
-        <p class="t" data-en="To increase the global supply of high-quality classical music content through refined production, immersive formats, and disciplined rights development." data-ko="정제된 프로덕션, 이머시브 포맷, 그리고 체계적인 권리 개발을 통해 전 세계 고품질 클래식 음악 콘텐츠 공급량을 확대합니다."></p>
-      </article>
-      <article class="about-card reveal delay-2">
-        <h3 class="t" data-en="Business Model" data-ko="비즈니스 모델"></h3>
-        <p class="t" data-en="We originate, produce, package, distribute, and license classical content across stereo and Dolby Atmos formats — creating long-term value through master ownership, strategic partnerships, and catalog growth." data-ko="스테레오 및 돌비 애트모스 포맷에 걸쳐 클래식 콘텐츠를 기획·제작·패키징·배급·라이선싱하여 마스터 소유권, 전략적 파트너십, 카탈로그 성장을 통해 장기적 가치를 창출합니다."></p>
-      </article>
-      <article class="about-card reveal delay-3">
-        <h3 class="t" data-en="Why FANTASIA" data-ko="왜 FANTASIA인가"></h3>
-        <p class="t" data-en="FANTASIA combines artistic credibility with a premium commercial framework — bridging performers, labels, digital platforms, and rights-holders with sophisticated content execution." data-ko="FANTASIA는 예술적 신뢰성과 프리미엄 상업 프레임워크를 결합하여 퍼포머, 레이블, 디지털 플랫폼, 권리 보유자를 정교한 콘텐츠 실행으로 연결합니다."></p>
-      </article>
-    </div>
-    <div class="strengths-bar reveal">
-      <div class="strength-item">
-        <span class="strength-num">01</span>
-        <h4 class="t" data-en="IP Creation" data-ko="IP 창출"></h4>
-        <p class="t" data-en="We shape recordings into distinct, monetizable identities with enduring market relevance." data-ko="녹음물을 지속적인 시장 관련성을 가진 독특하고 수익화 가능한 정체성으로 만듭니다."></p>
-      </div>
-      <div class="strength-item">
-        <span class="strength-num">02</span>
-        <h4 class="t" data-en="Immersive Production" data-ko="이머시브 프로덕션"></h4>
-        <p class="t" data-en="Our Dolby Atmos workflows elevate emotional depth, spatial realism, and premium positioning." data-ko="돌비 애트모스 워크플로우로 감정적 깊이, 공간적 현실감, 프리미엄 포지셔닝을 높입니다."></p>
-      </div>
-      <div class="strength-item">
-        <span class="strength-num">03</span>
-        <h4 class="t" data-en="Global Distribution" data-ko="글로벌 유통"></h4>
-        <p class="t" data-en="We prepare content for international release, metadata integrity, and platform optimization." data-ko="국제 릴리스, 메타데이터 무결성, 플랫폼 최적화를 위해 콘텐츠를 준비합니다."></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════════════════ RELEASES ═══════════════════════════ -->
-<section class="section section-releases" id="releases">
-  <div class="container">
-    <div class="section-intro reveal">
-      <p class="section-label t" data-en="Releases" data-ko="릴리스"></p>
-      <h2 class="section-h2 t" data-en="Premium Catalog" data-ko="프리미엄 카탈로그"></h2>
-      <p class="section-sub t" data-en="Stereo and Dolby Atmos releases positioned for global audiences, editorial placement, and long-term rights value." data-ko="글로벌 청중, 에디토리얼 배치, 장기 권리 가치를 위해 포지셔닝된 스테레오 및 돌비 애트모스 릴리스."></p>
-    </div>
-
-    <!-- Filter Tabs -->
-    <div class="catalog-filters reveal" role="tablist" aria-label="Catalog filter">
-      <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
-        <span class="t" data-en="All" data-ko="전체"></span>
-      </button>
-      <button class="filter-btn" data-filter="stereo" role="tab" aria-selected="false">
-        <span class="t" data-en="Stereo" data-ko="스테레오"></span>
-      </button>
-      <button class="filter-btn" data-filter="atmos" role="tab" aria-selected="false">
-        <span class="t" data-en="Dolby Atmos" data-ko="돌비 애트모스"></span>
-      </button>
-      <button class="filter-btn" data-filter="featured" role="tab" aria-selected="false">
-        <span class="t" data-en="Featured" data-ko="피처드"></span>
-      </button>
-    </div>
-
-    <!-- Album Grid -->
-    <div class="catalog-grid" id="catalog-grid">
-
-      <article class="album-card reveal" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-01.svg" alt="Goldberg Variations album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="hero-badge t" data-ko="FANTASIA CLASSICAL" data-en="FANTASIA CLASSICAL"></span>
+          <h1 class="hero-title t" data-ko="기록을 넘어, 세계가 듣는 음악으로." data-en="Beyond recording, into the music the world listens to."></h1>
+          <p class="hero-desc t" data-ko="판타지아는 글로벌 플랫폼에 돌비 애트모스 음원을 유통할 수 있는 인프라와 국내 클래식 전문 기획사 및 제작 파트너 네트워크를 바탕으로, 당신의 음악이 가장 완성도 높은 형태로 세상에 닿도록 함께합니다." data-en="FANTASIA is built on the infrastructure to distribute Dolby Atmos recordings to global platforms, along with a Korean classical planning and production partner network, helping your music reach the world in its most refined form."></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary t" href="#contact" data-ko="발매 및 제작 문의하기" data-en="Submit Your Music"></a>
+            <a class="btn btn-secondary t" href="#releases" data-ko="카탈로그 둘러보기" data-en="Explore Catalog"></a>
           </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">J.S. Bach</p>
-          <h3 class="album-title t" data-en="Goldberg Variations" data-ko="골드베르크 변주곡"></h3>
-          <p class="album-meta">Piano · 2024</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-1" data-format="atmos" data-featured="true">
-        <div class="album-cover">
-          <img src="assets/covers/cover-02.svg" alt="Beethoven Symphony No. 9 album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-atmos">Dolby Atmos</span>
-            <span class="album-badge badge-feat t" data-en="Featured" data-ko="피처드"></span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">L.v. Beethoven</p>
-          <h3 class="album-title t" data-en="Symphony No. 9" data-ko="교향곡 제9번"></h3>
-          <p class="album-meta">Orchestra · 2024</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-2" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-03.svg" alt="Schubert Winterreise album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">F. Schubert</p>
-          <h3 class="album-title t" data-en="Winterreise" data-ko="겨울 나그네"></h3>
-          <p class="album-meta">Vocal · 2024</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-3" data-format="stereo" data-featured="true">
-        <div class="album-cover">
-          <img src="assets/covers/cover-04.svg" alt="Bach Partitas album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-            <span class="album-badge badge-feat t" data-en="Featured" data-ko="피처드"></span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">J.S. Bach</p>
-          <h3 class="album-title t" data-en="Partitas BWV 825–830" data-ko="파르티타 BWV 825–830"></h3>
-          <p class="album-meta">Keyboard · 2024</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal" data-format="atmos" data-featured="true">
-        <div class="album-cover">
-          <img src="assets/covers/cover-05.svg" alt="Brahms Piano Concerto No. 2 album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-atmos">Dolby Atmos</span>
-            <span class="album-badge badge-feat t" data-en="Featured" data-ko="피처드"></span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">J. Brahms</p>
-          <h3 class="album-title t" data-en="Piano Concerto No. 2" data-ko="피아노 협주곡 제2번"></h3>
-          <p class="album-meta">Piano &amp; Orchestra · 2024</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-1" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-06.svg" alt="Mozart Piano Concertos album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">W.A. Mozart</p>
-          <h3 class="album-title t" data-en="Piano Concertos" data-ko="피아노 협주곡집"></h3>
-          <p class="album-meta">Piano &amp; Orchestra · 2024</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-2" data-format="atmos" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-07.svg" alt="Chopin Nocturnes album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-atmos">Dolby Atmos</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">F. Chopin</p>
-          <h3 class="album-title t" data-en="Nocturnes" data-ko="녹턴 전집"></h3>
-          <p class="album-meta">Piano · 2024</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-3" data-format="atmos" data-featured="true">
-        <div class="album-cover">
-          <img src="assets/covers/cover-08.svg" alt="Dvořák New World Symphony album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-atmos">Dolby Atmos</span>
-            <span class="album-badge badge-feat t" data-en="Featured" data-ko="피처드"></span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">A. Dvořák</p>
-          <h3 class="album-title t" data-en="New World Symphony" data-ko="신세계 교향곡"></h3>
-          <p class="album-meta">Orchestra · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-09.svg" alt="Sibelius Violin Concerto album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">J. Sibelius</p>
-          <h3 class="album-title t" data-en="Violin Concerto" data-ko="바이올린 협주곡"></h3>
-          <p class="album-meta">Violin &amp; Orchestra · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-1" data-format="atmos" data-featured="true">
-        <div class="album-cover">
-          <img src="assets/covers/cover-10.svg" alt="Rachmaninoff Piano Concerto No. 2 album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-atmos">Dolby Atmos</span>
-            <span class="album-badge badge-feat t" data-en="Featured" data-ko="피처드"></span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">S. Rachmaninoff</p>
-          <h3 class="album-title t" data-en="Piano Concerto No. 2" data-ko="피아노 협주곡 제2번"></h3>
-          <p class="album-meta">Piano &amp; Orchestra · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-2" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-11.svg" alt="Debussy Images album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">C. Debussy</p>
-          <h3 class="album-title t" data-en="Images" data-ko="이마주"></h3>
-          <p class="album-meta">Piano · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-3" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-12.svg" alt="Ravel Piano Works album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">M. Ravel</p>
-          <h3 class="album-title t" data-en="Piano Works" data-ko="피아노 작품집"></h3>
-          <p class="album-meta">Piano · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal" data-format="atmos" data-featured="true">
-        <div class="album-cover">
-          <img src="assets/covers/cover-13.svg" alt="Mahler Symphony No. 5 album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-atmos">Dolby Atmos</span>
-            <span class="album-badge badge-feat t" data-en="Featured" data-ko="피처드"></span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">G. Mahler</p>
-          <h3 class="album-title t" data-en="Symphony No. 5" data-ko="교향곡 제5번"></h3>
-          <p class="album-meta">Orchestra · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-1" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-14.svg" alt="Schumann Piano Concerto album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">R. Schumann</p>
-          <h3 class="album-title t" data-en="Piano Concerto in A minor" data-ko="피아노 협주곡 가단조"></h3>
-          <p class="album-meta">Piano &amp; Orchestra · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-2" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-15.svg" alt="Prokofiev Violin Sonatas album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">S. Prokofiev</p>
-          <h3 class="album-title t" data-en="Violin Sonatas" data-ko="바이올린 소나타집"></h3>
-          <p class="album-meta">Violin &amp; Piano · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal delay-3" data-format="atmos" data-featured="true">
-        <div class="album-cover">
-          <img src="assets/covers/cover-16.svg" alt="Chamber Music Vol. I album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-atmos">Dolby Atmos</span>
-            <span class="album-badge badge-feat t" data-en="Featured" data-ko="피처드"></span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">FANTASIA Ensemble</p>
-          <h3 class="album-title t" data-en="Chamber Music Vol. I" data-ko="실내악 Vol. I"></h3>
-          <p class="album-meta">Ensemble · 2025</p>
-        </div>
-      </article>
-
-      <article class="album-card reveal" data-format="stereo" data-featured="false">
-        <div class="album-cover">
-          <img src="assets/covers/cover-17.svg" alt="Baroque Masterworks album cover" loading="lazy" />
-          <div class="album-overlay">
-            <span class="album-badge badge-stereo">Stereo</span>
-          </div>
-        </div>
-        <div class="album-info">
-          <p class="album-composer">Various Composers</p>
-          <h3 class="album-title t" data-en="Baroque Masterworks" data-ko="바로크 명곡집"></h3>
-          <p class="album-meta">Ensemble · 2025</p>
-        </div>
-      </article>
-
-    </div><!-- /catalog-grid -->
-  </div>
-</section>
-
-<!-- ═══════════════════════════ DOLBY ATMOS ═══════════════════════════ -->
-<section class="section section-dark" id="dolby">
-  <div class="container">
-    <div class="section-intro reveal">
-      <p class="section-label t" data-en="Immersive Audio" data-ko="이머시브 오디오"></p>
-      <h2 class="section-h2 t" data-en="Why Dolby Atmos matters for classical music." data-ko="클래식 음악에 돌비 애트모스가 중요한 이유."></h2>
-      <p class="section-sub t" data-en="Dolby Atmos extends the natural dimensionality of classical performance — allowing listeners to experience spatial depth, ensemble placement, and acoustic nuance with unprecedented realism." data-ko="돌비 애트모스는 클래식 퍼포먼스의 자연적 입체감을 확장하여 청중이 공간적 깊이, 앙상블 배치, 음향적 뉘앙스를 전례없는 현실감으로 경험하게 합니다."></p>
-    </div>
-
-    <div class="process-row">
-      <article class="process-card reveal">
-        <span class="proc-num">01</span>
-        <h3 class="t" data-en="Capture" data-ko="캡처"></h3>
-        <p class="t" data-en="Sessions are planned to preserve tonal detail, hall acoustics, and the full dynamic range of the performance." data-ko="음색의 디테일, 홀 음향, 퍼포먼스의 전체 다이나믹 레인지를 보존하도록 세션을 기획합니다."></p>
-      </article>
-      <article class="process-card reveal delay-1">
-        <span class="proc-num">02</span>
-        <h3 class="t" data-en="Design" data-ko="디자인"></h3>
-        <p class="t" data-en="Spatial intent is mapped to the repertoire — instrumentation, emotional architecture, and venue perspective." data-ko="악기 편성, 감정적 구조, 공연장 관점에 맞추어 레퍼토리에 공간적 의도를 설계합니다."></p>
-      </article>
-      <article class="process-card reveal delay-2">
-        <span class="proc-num">03</span>
-        <h3 class="t" data-en="Mix" data-ko="믹스"></h3>
-        <p class="t" data-en="Immersive mixing refines clarity, depth, localization, and balance for premium playback environments." data-ko="이머시브 믹싱으로 프리미엄 재생 환경을 위한 선명도, 깊이감, 음상 정위, 밸런스를 완성합니다."></p>
-      </article>
-      <article class="process-card reveal delay-3">
-        <span class="proc-num">04</span>
-        <h3 class="t" data-en="Deliver" data-ko="딜리버"></h3>
-        <p class="t" data-en="Final assets are prepared for global distribution, platform specifications, and long-term catalog deployment." data-ko="최종 에셋을 글로벌 배급, 플랫폼 사양, 장기 카탈로그 배포에 맞게 준비합니다."></p>
-      </article>
-    </div>
-
-    <div class="benefits-band reveal">
-      <div class="bene-block">
-        <h4 class="t" data-en="For Artists" data-ko="아티스트를 위한"></h4>
-        <p class="t" data-en="Stronger brand differentiation, prestige positioning, deeper storytelling, and premium catalog identity." data-ko="브랜드 차별화 강화, 프레스티지 포지셔닝, 깊은 스토리텔링, 프리미엄 카탈로그 정체성."></p>
-      </div>
-      <div class="bene-block">
-        <h4 class="t" data-en="For Listeners" data-ko="청중을 위한"></h4>
-        <p class="t" data-en="More immersive listening, heightened emotional engagement, and closeness to the live performance environment." data-ko="더욱 몰입감 있는 감상, 높아진 감정적 교감, 라이브 퍼포먼스 환경에 근접한 경험."></p>
-      </div>
-      <div class="bene-block">
-        <h4 class="t" data-en="For Platforms" data-ko="플랫폼을 위한"></h4>
-        <p class="t" data-en="Higher-value editorial programming, format innovation, and superior listening experiences for premium subscribers." data-ko="높은 가치의 에디토리얼 프로그래밍, 포맷 혁신, 프리미엄 구독자를 위한 우수한 청취 경험."></p>
-      </div>
-    </div>
-
-    <!-- Featured Atmos highlight -->
-    <div class="atmos-highlight reveal">
-      <div class="atmos-left">
-        <span class="section-label t" data-en="Flagship Release" data-ko="플래그십 릴리스"></span>
-        <h3 class="t" data-en="Chamber Music Vol. I — Dolby Atmos" data-ko="실내악 Vol. I — 돌비 애트모스"></h3>
-        <p class="t" data-en="Our flagship immersive production — a chamber program engineered to demonstrate the full spatial potential of Dolby Atmos for classical repertoire." data-ko="클래식 레퍼토리에서 돌비 애트모스의 전체 공간적 가능성을 보여주기 위해 설계된 실내악 프로그램으로 당사의 플래그십 이머시브 프로덕션입니다."></p>
-      </div>
-      <div class="atmos-right">
-        <img src="assets/covers/cover-16.svg" alt="Chamber Music Vol. I cover" />
-        <div class="atmos-badges">
-          <span class="badge-atmos-lg">Dolby Atmos</span>
         </div>
       </div>
-    </div>
+    </section>
 
-  </div>
-</section>
-
-<!-- ═══════════════════════════ LICENSING ═══════════════════════════ -->
-<section class="section" id="licensing">
-  <div class="container">
-    <div class="section-intro reveal">
-      <p class="section-label t" data-en="Licensing" data-ko="라이선싱"></p>
-      <h2 class="section-h2 t" data-en="A disciplined rights strategy for classical music IP growth." data-ko="클래식 음악 IP 성장을 위한 체계적인 권리 전략."></h2>
-    </div>
-
-    <div class="licensing-grid">
-      <article class="lic-card reveal">
-        <div class="lic-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="24" cy="24" r="20" stroke="#d1a857" stroke-width="1.5" opacity="0.7"/><path d="M16 20h16M16 24h12M16 28h8" stroke="#d1a857" stroke-width="2" stroke-linecap="round"/></svg>
+    <section class="section" id="releases">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker t" data-ko="LATEST RELEASES" data-en="LATEST RELEASES"></span>
+          <h2 class="section-title t" data-ko="판타지아가 선보이는 음악들" data-en="Music by FANTASIA"></h2>
         </div>
-        <h3 class="t" data-en="IP Development" data-ko="IP 개발"></h3>
-        <p class="t" data-en="We develop classical repertoire into durable commercial assets through recording programs, release planning, rights structuring, and artist positioning." data-ko="녹음 프로그램, 릴리스 기획, 권리 구조화, 아티스트 포지셔닝을 통해 클래식 레퍼토리를 내구성 있는 상업적 자산으로 개발합니다."></p>
-      </article>
 
-      <article class="lic-card reveal delay-1">
-        <div class="lic-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="10" y="10" width="28" height="28" rx="4" stroke="#d1a857" stroke-width="1.5" opacity="0.7"/><path d="M18 24l4 4 8-8" stroke="#d1a857" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="catalog-grid">
+          <article class="catalog-card reveal">
+            <img src="assets/covers/cover-16.svg" alt="Chamber Music Vol. I" />
+            <div class="catalog-copy">
+              <span class="catalog-tag atmos">ATMOS</span>
+              <h3 class="t" data-ko="실내악 프로젝트 Vol. I" data-en="Chamber Music Vol. I"></h3>
+              <p class="t" data-ko="판타지아 오리지널 앙상블 · 오리지널 릴리스" data-en="FANTASIA Original Ensemble · Original Release"></p>
+            </div>
+          </article>
+
+          <article class="catalog-card reveal delay-1">
+            <img src="assets/covers/cover-10.svg" alt="Rachmaninoff Piano Concerto No. 2" />
+            <div class="catalog-copy">
+              <span class="catalog-tag atmos">ATMOS</span>
+              <h3 class="t" data-ko="라흐마니노프: 피아노 협주곡 2번" data-en="Rachmaninoff: Piano Concerto No. 2"></h3>
+              <p class="t" data-ko="오케스트라 라이브 아카이브 시리즈" data-en="Orchestral Live Archive Series"></p>
+            </div>
+          </article>
+
+          <article class="catalog-card reveal delay-2">
+            <img src="assets/covers/cover-08.svg" alt="Dvorak New World Symphony Live" />
+            <div class="catalog-copy">
+              <span class="catalog-tag atmos">ATMOS</span>
+              <h3 class="t" data-ko="드보르자크: 신세계 교향곡 실황" data-en="Dvořák: New World Symphony Live"></h3>
+              <p class="t" data-ko="콘서트홀 레코딩 컬렉션" data-en="Concert Hall Recording Collection"></p>
+            </div>
+          </article>
+
+          <article class="catalog-card reveal delay-3">
+            <img src="assets/covers/cover-03.svg" alt="Schubert Winterreise" />
+            <div class="catalog-copy">
+              <span class="catalog-tag atmos">ATMOS</span>
+              <h3 class="t" data-ko="슈베르트: 겨울 나그네" data-en="Schubert: Winterreise"></h3>
+              <p class="t" data-ko="레거시 보컬 아카이브 리본" data-en="Legacy Vocal Archive Reborn"></p>
+            </div>
+          </article>
         </div>
-        <h3 class="t" data-en="Master Rights" data-ko="마스터 권리"></h3>
-        <p class="t" data-en="We prioritize control, clarity, and monetization-readiness in master ownership, usage frameworks, and partner negotiations." data-ko="마스터 소유권, 사용 프레임워크, 파트너 협상에서 통제권, 명확성, 수익화 준비성을 우선시합니다."></p>
-      </article>
-
-      <article class="lic-card reveal delay-2">
-        <div class="lic-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="24" cy="24" r="20" stroke="#d1a857" stroke-width="1.5" opacity="0.7"/><path d="M16 24h16M28 18l6 6-6 6" stroke="#d1a857" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <h3 class="t" data-en="Global Distribution" data-ko="글로벌 유통"></h3>
-        <p class="t" data-en="We support international distribution readiness with premium assets, market-aligned metadata, and platform-facing release logic." data-ko="프리미엄 에셋, 시장 맞춤형 메타데이터, 플랫폼 지향 릴리스 로직으로 국제 배급 준비를 지원합니다."></p>
-      </article>
-
-      <article class="lic-card reveal delay-3">
-        <div class="lic-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M8 40V20l16-12 16 12v20" stroke="#d1a857" stroke-width="1.5" opacity="0.7" stroke-linejoin="round"/><rect x="18" y="28" width="12" height="12" stroke="#d1a857" stroke-width="1.5"/></svg>
-        </div>
-        <h3 class="t" data-en="Catalog Acquisition" data-ko="카탈로그 인수"></h3>
-        <p class="t" data-en="We evaluate selective acquisition and partnership opportunities that strengthen long-term catalog value, repertoire depth, and geographic relevance." data-ko="장기 카탈로그 가치, 레퍼토리 깊이, 지리적 관련성을 강화하는 선별적 인수 및 파트너십 기회를 평가합니다."></p>
-      </article>
-    </div>
-
-    <div class="lic-table-wrap reveal">
-      <div class="lic-table-header">
-        <h3 class="t" data-en="Catalog Format Overview" data-ko="카탈로그 포맷 개요"></h3>
-        <p class="t" data-en="Release segmentation aligned with audience, commercial objective, and IP strategy." data-ko="청중, 상업적 목표, IP 전략에 맞춘 릴리스 세분화."></p>
       </div>
-      <div class="table-scroll">
-        <table>
-          <thead>
-            <tr>
-              <th class="t" data-en="Category" data-ko="카테고리"></th>
-              <th class="t" data-en="Format" data-ko="포맷"></th>
-              <th class="t" data-en="Primary Audience" data-ko="주요 청중"></th>
-              <th class="t" data-en="Commercial Objective" data-ko="상업적 목표"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="t" data-en="Core Catalog" data-ko="핵심 카탈로그"></td>
-              <td><span class="badge-stereo-sm">Stereo</span></td>
-              <td class="t" data-en="Streaming listeners, editorial teams, labels" data-ko="스트리밍 청취자, 에디토리얼 팀, 레이블"></td>
-              <td class="t" data-en="Reach, discoverability, catalog depth" data-ko="도달 범위, 발견 가능성, 카탈로그 깊이"></td>
-            </tr>
-            <tr>
-              <td class="t" data-en="Premium Experiences" data-ko="프리미엄 경험"></td>
-              <td><span class="badge-atmos-sm">Dolby Atmos</span></td>
-              <td class="t" data-en="High-end listeners, featured platforms" data-ko="하이엔드 청취자, 피처드 플랫폼"></td>
-              <td class="t" data-en="Differentiation, brand elevation, immersion" data-ko="차별화, 브랜드 격상, 몰입감"></td>
-            </tr>
-            <tr>
-              <td class="t" data-en="Strategic Projects" data-ko="전략적 프로젝트"></td>
-              <td><span class="badge-both-sm t" data-en="Multi-format" data-ko="멀티 포맷"></span></td>
-              <td class="t" data-en="Partners, investors, rights-holders" data-ko="파트너, 투자자, 권리 보유자"></td>
-              <td class="t" data-en="IP growth, licensing, catalog expansion" data-ko="IP 성장, 라이선싱, 카탈로그 확장"></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+    </section>
 
-    <div class="lic-callout reveal">
+    <section class="section section-alt" id="about">
+      <div class="container about-story-grid">
+        <div class="reveal">
+          <span class="section-kicker t" data-ko="OUR MISSION" data-en="OUR MISSION"></span>
+          <h2 class="section-title t" data-ko="하드디스크에 잠들어 있는 소중한 연주를 꺼내어" data-en="Bringing out the precious performances sleeping in hard drives"></h2>
+        </div>
+
+        <div class="reveal delay-1">
+          <p class="about-text t" data-ko="정성스럽게 녹음한 CD 한 장의 기억, 감동적이었던 독주회와 오케스트라 실황이 일회성 이벤트로 사라지고 있지는 않나요? 판타지아는 아티스트가 평생에 걸쳐 쌓아온 연주 기록이 단발성 콘텐츠로 끝나지 않도록 가장 세련된 오디오 아키텍처로 다시 다듬습니다." data-en="Are beautifully recorded CDs and unforgettable live performances fading away as one-time events? FANTASIA refines lifelong artistic records with sophisticated audio architecture so they can live on as meaningful releases."></p>
+          <p class="about-text t" data-ko="Apple Music, Amazon Music 같은 글로벌 플랫폼이 주목하는 Dolby Atmos 공간 음향으로 확장하고, 전 세계 리스너의 플레이리스트에 지속적으로 닿을 수 있는 유통 구조를 함께 설계합니다." data-en="We expand your work into Dolby Atmos spatial audio for global platforms like Apple Music and Amazon Music, and build a release structure that keeps it reaching listeners over time."></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal center">
+          <span class="section-kicker t" data-ko="HOW WE WORK" data-en="HOW WE WORK"></span>
+          <h2 class="section-title t" data-ko="당신의 음악에 맞는 두 가지 협업 방식" data-en="Two collaboration paths for your music"></h2>
+        </div>
+
+        <div class="model-grid">
+          <article class="model-card reveal">
+            <h3 class="t" data-ko="기존 녹음 자산 글로벌 유통 & 리마스터" data-en="Archive Distribution & Remastering"></h3>
+            <p class="t" data-ko="이미 보유하고 있는 독주회 실황, 과거 발매 앨범 마스터, 오케스트라 아카이브 음원을 판타지아의 전담 엔지니어 팀이 Dolby Atmos 3D 공간 음향으로 재제작하고 글로벌 유통까지 연결합니다." data-en="Our engineering team transforms your existing live recitals, past masters, and orchestral archives into Dolby Atmos 3D spatial audio and connects them to global distribution."></p>
+          </article>
+
+          <article class="model-card reveal delay-1">
+            <h3 class="t" data-ko="오리지널 레이블 제작 및 투자" data-en="Original Label Production"></h3>
+            <p class="t" data-ko="차세대 클래식 씬을 이끌어갈 유망한 솔리스트, 국제 콩쿠르 입상자, 실내악 팀을 발굴하여 판타지아가 기획·대관·녹음·브랜딩까지 직접 투자하고 함께 만듭니다." data-en="We discover promising soloists, competition laureates, and chamber ensembles, then invest directly in planning, hall booking, recording, and branding."></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="network">
+      <div class="container">
+        <div class="partners-panel reveal partners-panel-single">
+          <span class="section-kicker t" data-ko="PARTNERS" data-en="PARTNERS"></span>
+          <h3 class="partners-title t" data-ko="신뢰할 수 있는 유통망과 제작 네트워크 위에서 실행합니다" data-en="Built on trusted distribution and production networks"></h3>
+          <p class="partners-desc t" data-ko="판타지아는 글로벌 플랫폼에 돌비 애트모스 음원을 유통할 수 있는 인프라와 국내 클래식 전문 기획사 및 제작 파트너 네트워크를 바탕으로, 당신의 음악이 가장 완성도 높은 형태로 세상에 닿도록 함께합니다." data-en="FANTASIA is built on the infrastructure to distribute Dolby Atmos recordings to global platforms, along with a Korean classical planning and production partner network, helping your music reach the world in its most refined form."></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="container contact-panel reveal">
+        <div>
+          <span class="section-kicker t" data-ko="CONTACT US" data-en="CONTACT US"></span>
+          <h2 class="section-title t" data-ko="당신의 음악을 들려주세요" data-en="Let us hear your music"></h2>
+          <p class="section-text t" data-ko="보관 중인 음원 파일, 유튜브 링크, 또는 발매 기획안을 보내주시면 담당 프로듀서와 엔지니어가 검토 후 3일 이내에 연락을 드립니다. 창작자의 소중한 권리와 가치를 판타지아와 함께 시작하세요." data-en="Send us your audio files, YouTube links, or release proposals. Our producers and engineers will review them and respond within three days."></p>
+        </div>
+
+        <div class="contact-actions">
+          <a href="mailto:aofantasiaofficial@gmail.com?subject=%5B%EC%95%84%ED%8B%B0%EC%8A%A4%ED%8A%B8%20%EB%B0%9C%EB%A7%A4%20%EB%AC%B8%EC%9D%98%5D" class="contact-link t" data-ko="개인 아티스트 유통 / 오디션 신청" data-en="Artist Distribution / Audition Submit"></a>
+          <a href="mailto:aofantasiaofficial@gmail.com?subject=%5B%EB%8B%A8%EC%B2%B4%2F%EA%B8%B0%ED%9A%8D%EC%82%AC%20%EC%A0%9C%ED%9C%B4%20%EB%AC%B8%EC%9D%98%5D" class="contact-link secondary t" data-ko="공연장 / 기획사 / 단체 아카이브 제휴 문의" data-en="Institution & Archive Partnership"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
       <div>
-        <p class="mini-label t" data-en="Investor Perspective" data-ko="투자자 관점"></p>
-        <h3 class="t" data-en="From artistic output to rights-based enterprise value." data-ko="예술적 결과물에서 권리 기반 기업 가치로."></h3>
+        <strong class="footer-brand">FANTASIA</strong>
+        <p class="footer-text t" data-ko="클래식 오리지널 레이블 & Dolby Atmos 유통 플랫폼" data-en="Classical Original Label & Dolby Atmos Distribution Platform"></p>
       </div>
-      <p class="t" data-en="Our licensing philosophy is built on scarcity, quality, and ownership discipline — aligning classical content creation with sustainable monetization and strategic upside." data-ko="당사의 라이선싱 철학은 희소성, 품질, 소유권 규율을 바탕으로 클래식 콘텐츠 창작과 지속 가능한 수익화 및 전략적 가치 상승을 연계합니다."></p>
+      <div>
+        <p class="footer-label t" data-ko="주소" data-en="Address"></p>
+        <p class="footer-text">Seoul, South Korea</p>
+      </div>
+      <div>
+        <p class="footer-label t" data-ko="이메일" data-en="Email"></p>
+        <p class="footer-text">aofantasiaofficial@gmail.com</p>
+      </div>
+      <div>
+        <p class="footer-label t" data-ko="저작권" data-en="Copyright"></p>
+        <p class="footer-text">© <span id="year"></span> FANTASIA. All rights reserved.</p>
+      </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
-<section class="section section-dark contact-section" id="contact">
-  <div class="container contact-grid">
-    <div class="reveal">
-      <p class="section-label t" data-en="Contact" data-ko="문의"></p>
-      <h2 class="section-h2 t" data-en="Open to partnerships, licensing discussions, and investor conversations." data-ko="파트너십, 라이선싱 논의, 투자자 대화를 환영합니다."></h2>
-      <p class="section-sub t" data-en="FANTASIA works with labels, distributors, streaming platforms, business partners, and investors seeking to shape the future of premium classical music content." data-ko="FANTASIA는 프리미엄 클래식 음악 콘텐츠의 미래를 함께 만들어 갈 레이블, 유통사, 스트리밍 플랫폼, 비즈니스 파트너 및 투자자와 협력합니다."></p>
-    </div>
-    <div class="contact-cards reveal delay-1">
-      <a class="contact-item" href="#contact">
-        <span class="contact-label t" data-en="Email" data-ko="이메일"></span>
-        <strong class="contact-val t" data-en="Official email — to be inserted" data-ko="공식 이메일 — 추가 예정"></strong>
-      </a>
-      <a class="contact-item" href="#contact">
-        <span class="contact-label t" data-en="Instagram" data-ko="인스타그램"></span>
-        <strong class="contact-val t" data-en="Official Instagram — to be inserted" data-ko="공식 인스타그램 — 추가 예정"></strong>
-      </a>
-      <a class="contact-item" href="#contact">
-        <span class="contact-label t" data-en="Business Inquiries" data-ko="비즈니스 문의"></span>
-        <strong class="contact-val t" data-en="Official inquiry channel — to be inserted" data-ko="공식 문의 채널 — 추가 예정"></strong>
-      </a>
-    </div>
-  </div>
-</section>
+  <script>
+    const html = document.documentElement;
+    const textNodes = document.querySelectorAll('.t');
+    const langToggle = document.getElementById('lang-toggle');
+    const navToggle = document.getElementById('nav-toggle');
+    const siteNav = document.getElementById('site-nav');
+    const navLinks = document.querySelectorAll('#site-nav a');
+    const revealItems = document.querySelectorAll('.reveal');
+    const yearNode = document.getElementById('year');
 
-</main>
+    if (yearNode) yearNode.textContent = new Date().getFullYear();
 
-<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <span class="brand-name">FANTASIA</span>
-      <p class="t" data-en="Classical Music IP Licensing &amp; Immersive Audio Company · South Korea" data-ko="클래식 음악 IP 라이선싱 &amp; 이머시브 오디오 컴퍼니 · 대한민국"></p>
-    </div>
-    <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="#about" class="t" data-en="About" data-ko="소개"></a>
-      <a href="#releases" class="t" data-en="Releases" data-ko="릴리스"></a>
-      <a href="#dolby" class="t" data-en="Dolby Atmos" data-ko="돌비 애트모스"></a>
-      <a href="#licensing" class="t" data-en="Licensing" data-ko="라이선싱"></a>
-      <a href="#contact" class="t" data-en="Contact" data-ko="문의"></a>
-    </nav>
-    <p class="footer-copy">© <span id="year"></span> FANTASIA. <span class="t" data-en="All rights reserved." data-ko="All rights reserved."></span></p>
-  </div>
-</footer>
+    function applyLanguage(lang) {
+      html.setAttribute('data-lang', lang);
+      html.setAttribute('lang', lang);
+      textNodes.forEach((node) => {
+        const value = node.dataset[lang];
+        if (value) node.innerHTML = value;
+      });
+      try { localStorage.setItem('fantasia-final-lang', lang); } catch (e) {}
+    }
 
-<script src="script.js"></script>
+    let initialLang = 'ko';
+    try { initialLang = localStorage.getItem('fantasia-final-lang') || 'ko'; } catch (e) {}
+    applyLanguage(initialLang === 'en' ? 'en' : 'ko');
+
+    if (langToggle) {
+      langToggle.addEventListener('click', () => {
+        const nextLang = html.getAttribute('data-lang') === 'ko' ? 'en' : 'ko';
+        applyLanguage(nextLang);
+      });
+    }
+
+    if (navToggle && siteNav) {
+      navToggle.addEventListener('click', () => {
+        const isOpen = siteNav.classList.toggle('is-open');
+        navToggle.setAttribute('aria-expanded', String(isOpen));
+      });
+      navLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          siteNav.classList.remove('is-open');
+          navToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealItems.forEach((item) => observer.observe(item));
+  </script>
 </body>
 </html>
